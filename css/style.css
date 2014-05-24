@@ -63,9 +63,14 @@ table {
 
 body{
 	font-family: "Helvetica Neue", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-weight: 200
+	font-weight: 200;
+	font-size: 18px;
 }
 
+
+h1,h2,h3,h4,h5,h6,p {
+   line-height: 1.45;
+}
 
 h1{
 	font-size: 35px
@@ -98,8 +103,6 @@ ol li{
 }
 
 p{
-	font-size: 16px;
-	line-height: 120%;
 	margin: 10px 0px
 }
 
