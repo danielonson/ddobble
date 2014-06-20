@@ -31,14 +31,35 @@
         </nav>
   <div id="landing">
   	<div id="video-wrapper">
-  		<video preload="auto" autoplay="autoplay" loop="true" width="1920px" height="1080px" >
-	  		<source src="video/gcca.h264.90percent.750kbps2.mp4.webm" type="video/webm"/>
-	  		<source src="video/gcca.h264.90percent.750kbps2.mp4" type="video/mp4"/>
+  		<!--
+<video preload="auto" autoplay="autoplay" loop="true" width="1920px" height="1080px" >
+	  		<source src="video/ddobble.webm" type="video/webm"/>
+	  		<source src="video/ddobble.mp4" type="video/mp4"/>
 	  	</video>
+-->
     </div> <!-- close video-wrapper -->
 
+<script>
+jQuery("document").ready(function($){
+    
+    var nav = $('.primary-nav');
+    
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 136) {
+            nav.addClass("f-nav");
+        } else {
+            nav.removeClass("f-nav");
+        }
+    });
+ 
+});
+</script>
 
-    <div id="landing-content">
+
+
+
+
+    <div id="landing-content" data-type="background" data-speed="10">
 	   <h1>Hello, world!</h1>
     </div><!-- close landing-content -->
   </div>  <!-- landing -->
@@ -47,6 +68,9 @@
  
  <section id="base">
  
+
+ </section>
+
 
  <section id="intro">
   <div class="container">
@@ -118,7 +142,7 @@
   
   	  </div> <!-- close container -->
     </section>  
-  </section> <!-- close section base -->
+
  
  
  
